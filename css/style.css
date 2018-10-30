@@ -672,6 +672,15 @@ template {
   border: 1px solid #d5d3d3;
   z-index: 9998; }
 
+.footer__info::after {
+  content: "";
+  position: absolute;
+  width: 75px;
+  height: 85px;
+  background-image: url("../img/gift.png");
+  margin-left: 600px;
+  margin-top: -30px; }
+
 .footer__description {
   font-family: "PT Sans-Bold";
   font-size: 56px;
