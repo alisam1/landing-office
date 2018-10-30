@@ -1,0 +1,38 @@
+.start__title
+{
+  width: 700px;
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  text-align: center;
+  padding-top: 55px;
+  position: relative;
+  left: 250px;
+  margin-bottom: 60px;
+}
+
+.start__block
+{
+  margin-bottom: 60px;
+}
+
+.start__description
+{
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 28px;
+  color: #383838;
+  margin-bottom: 40px;
+}
+
+.block__img
+{
+  display: flex;
+  justify-content: center;
+}
+
+.block__img img
+{
+  margin-right: 30px;
+}

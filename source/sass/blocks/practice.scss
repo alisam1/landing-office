@@ -1,0 +1,29 @@
+.practice
+{
+  width: 100%;
+  height: 750px;
+  background: rgba(234,231,231,0.30);
+  box-shadow: 0 2px 4px 0 rgba(220,213,213,0.50);
+  margin-top: 70px;
+  z-index: 999;
+}
+
+.practice__title
+{
+  width: 700px;
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  text-align: center;
+  padding-top: 55px;
+  position: relative;
+  left: 250px;
+  margin-bottom: 60px;
+}
+
+.pracrice__img
+{
+  display: flex;
+  justify-content: space-around;
+}
