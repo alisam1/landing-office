@@ -12,9 +12,76 @@
   margin-bottom: 60px;
 }
 
+.start__all
+{
+  display: flex;
+  flex-direction: column;
+}
+
 .start__block
 {
+  width: 350px;
   margin-bottom: 60px;
+  margin-left: 70px;
+}
+
+.start__block--poligraf::after
+{
+  content: "";
+  position: absolute;
+  width: 228px;
+  height: 25px;
+  background-image: url("../img/Line_1.svg");
+  margin-top: -280px;
+  margin-left: 320px;
+}
+
+.start__block--gift::after
+{
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 195px;
+  background-image: url("../img/line_2.svg");
+  margin-top: -30px;
+  margin-left: 100px;
+}
+
+.start__block--set::before
+{
+  content: "";
+  position: absolute;
+  width: 228px;
+  height: 25px;
+  background-image: url("../img/line_3.svg");
+  margin-top: 100px;
+  margin-left: -300px;
+}
+
+.start__block--brand::before
+{
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 180px;
+  background-image: url("../img/line_4.svg");
+  margin-top: -195px;
+  margin-left: 100px;
+}
+
+.start__high
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.start__low
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 120px;
 }
 
 .start__description
@@ -24,15 +91,10 @@
   line-height: 28px;
   color: #383838;
   margin-bottom: 40px;
+  margin-left: -20px;
 }
-
-.block__img
+.start__description
 {
-  display: flex;
-  justify-content: center;
-}
-
-.block__img img
-{
-  margin-right: 30px;
+  width: 280px;
+  text-align: center;
 }
