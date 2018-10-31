@@ -406,7 +406,7 @@ template {
   width: 102px;
   height: 102px;
   background-image: url("../img/icon_stimul.svg");
-  margin-left: -210px;
+  margin-left: -180px;
   margin-top: 100px;
   z-index: 999; }
 
@@ -415,9 +415,6 @@ template {
 
 .about_company__block--stimul .about_company__description {
   padding-top: 140px; }
-
-.about_company__text {
-  margin-top: 20px; }
 
 .about_company__block--relations .about_company__img::after {
   content: "";
@@ -435,9 +432,6 @@ template {
   text-align: right;
   position: relative;
   right: 20px; }
-
-.about_company__block--relations .about_company__text {
-  margin-left: 20px; }
 
 .poll {
   width: 100%;
