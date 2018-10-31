@@ -492,26 +492,90 @@ template {
   left: 250px;
   margin-bottom: 60px; }
 
+.start__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
 .start__block {
-  margin-bottom: 60px; }
+  width: 350px;
+  margin-bottom: 60px;
+  margin-left: 70px; }
+
+.start__block--poligraf::after {
+  content: "";
+  position: absolute;
+  width: 228px;
+  height: 25px;
+  background-image: url("../img/Line_1.svg");
+  margin-top: -280px;
+  margin-left: 320px; }
+
+.start__block--gift::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 195px;
+  background-image: url("../img/line_2.svg");
+  margin-top: -30px;
+  margin-left: 100px; }
+
+.start__block--set::before {
+  content: "";
+  position: absolute;
+  width: 228px;
+  height: 25px;
+  background-image: url("../img/line_3.svg");
+  margin-top: 100px;
+  margin-left: -300px; }
+
+.start__block--brand::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 180px;
+  background-image: url("../img/line_4.svg");
+  margin-top: -195px;
+  margin-left: 100px; }
+
+.start__high {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.start__low {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 120px; }
 
 .start__description {
   font-family: "PT Sans";
   font-size: 24px;
   line-height: 28px;
   color: #383838;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  margin-left: -20px; }
 
-.block__img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.block__img img {
-  margin-right: 30px; }
+.start__description {
+  width: 280px;
+  text-align: center; }
 
 .practice {
   width: 100%;
@@ -604,7 +668,7 @@ template {
   line-height: 31px;
   color: #383838;
   margin-bottom: 40px;
-  margin-left: 60px; }
+  margin-left: 100px; }
 
 .manager {
   width: 480px;
