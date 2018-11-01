@@ -551,12 +551,6 @@ template {
 .start__block--poligraf, .start__block--brand {
   margin-left: 90px; }
 
-.start__block--brand .start__img img {
-  width: 450px;
-  position: relative;
-  right: 100px;
-  bottom: 10px; }
-
 .start__description {
   font-family: "PT Sans";
   font-size: 24px;
