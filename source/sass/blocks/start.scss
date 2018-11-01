@@ -40,7 +40,17 @@
   margin-top: 0px;
 }
 
-.start__block--set .start__img img
+.start__block--gift, .start__block--set
+{
+  margin-left: 0px;
+}
+
+.start__block--poligraf, .start__block--brand
+{
+  margin-left: 90px;
+}
+
+.start__block--brand .start__img img
 {
   width: 450px;
   position: relative;
