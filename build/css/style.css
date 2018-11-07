@@ -705,7 +705,8 @@ template {
     width: 280px;
     margin-left: 40px; }
   .start__description {
-    text-align: left; }
+    text-align: left;
+    margin-left: 40px; }
   .start__img {
     margin-left: 40px; } }
 
