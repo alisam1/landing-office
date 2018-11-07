@@ -510,7 +510,7 @@ template {
             flex-direction: column-reverse; }
   .about_company__block--progress .about_company__img img {
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 40px;
     width: 280px; }
   .about_company__block--stimul .about_company__img img {
     padding-top: 0px;
@@ -521,7 +521,7 @@ template {
     padding-left: 35px;
     width: 280px; }
   .about_company__lead {
-    margin-left: 30px;
+    margin-left: 40px;
     width: 280px;
     margin-top: -120px;
     margin-bottom: 30px; }
@@ -703,6 +703,10 @@ template {
             flex-direction: column; }
   .start__block {
     width: 280px;
+    margin-left: 40px; }
+  .start__description {
+    text-align: left; }
+  .start__img {
     margin-left: 40px; } }
 
 .practice {
@@ -971,7 +975,7 @@ template {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-left: 90px; } }
+    margin-left: 70px; } }
 
 .delivery {
   width: 100%;
