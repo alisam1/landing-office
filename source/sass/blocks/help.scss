@@ -114,14 +114,13 @@ top: 20px;
   .help__title
   {
     width: 280px;
-    left: 50px;
+    left: 40px;
   }
 
   .help__description
   {
     width: 280px;
-    left: -50px;
-      position: relative;
+    margin-left: 40px;
   }
 
   .manager {
@@ -139,7 +138,7 @@ top: 20px;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .manager__img img {
