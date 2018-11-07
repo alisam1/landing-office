@@ -50,6 +50,28 @@ margin-top: -30px;
     height: 360px;
   }
 
+  .footer__description
+  {
+    font-family: "PT Sans-Bold";
+    font-size: 36px;
+    line-height: 72px;
+    color: #383838;
+    text-align: center;
+    z-index: 9999;
+    padding-top: 30px;
+  }
+
+  .footer__description span
+  {
+    font-family: "PT Sans-Bold";
+    font-size: 36px;
+    line-height: 72px;
+    color: #AFCC43;
+    text-align: center;
+    z-index: 9999;
+    padding-top: 30px;
+  }
+
   .footer__info::after
   {
     margin-left: 140px;
