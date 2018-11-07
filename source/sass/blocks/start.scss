@@ -64,3 +64,34 @@
   width: 280px;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .start__title {
+      width: 280px;
+      font-family: "PT Sans-Bold";
+      color: #383838;
+      font-size: 42px;
+      line-height: 47px;
+      text-align: center;
+      padding-top: 55px;
+      position: relative;
+      left: 50px;
+      margin-bottom: 60px;
+  }
+
+  .start__high, .start__low
+  {
+    flex-direction: column;
+  }
+
+  .start__block
+  {
+    width: 280px;
+    margin-left: 70px;
+  }
+}

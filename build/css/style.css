@@ -305,6 +305,16 @@ template {
   width: 1200px;
   margin: 0 auto; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    width: 768px;
+    margin: 0 auto; } }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin: 0 auto; } }
+
 .page-header {
   background-image: url("../img/main_background.png");
   background-repeat: no-repeat;
@@ -339,6 +349,41 @@ template {
   background-image: url("../img/main_line.svg");
   margin-left: -310px;
   margin-top: 10px; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .page-header {
+    background-image: url("../img/main_background.png");
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    background-size: cover;
+    height: 200px;
+    width: 100%; }
+  .header__title {
+    width: 280px;
+    text-align: right;
+    font-family: "PT Sans-Bold";
+    font-size: 30px;
+    float: right;
+    margin-top: 30px;
+    color: #383838;
+    position: relative;
+    left: -50px; }
+  .header__title span {
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 30px;
+    display: block;
+    text-transform: uppercase;
+    color: #383838;
+    position: relative; }
+  .header__title::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    background-image: url("../img/main_line.svg");
+    margin-left: -120px;
+    margin-top: 10px; } }
 
 .about_company {
   display: -webkit-box;
@@ -439,6 +484,53 @@ template {
 .about_company__block--relations .about_company__text {
   margin-left: 20px; }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about_company__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .about_company::after {
+    display: none; }
+  .about_company__block--progress .about_company__img::after {
+    display: none; }
+  .about_company__block--stimul .about_company__img::before {
+    display: none; }
+  .about_company__block--stimul .about_company__img::before {
+    display: none; }
+  .about_company__block--relations .about_company__img::after {
+    display: none; }
+  .about_company__block--stimul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+  .about_company__block--progress .about_company__img img {
+    padding-top: 20px;
+    padding-left: 10px; }
+  .about_company__block--stimul .about_company__img img {
+    padding-top: 0px;
+    padding-left: 35px; }
+  .about_company__block--relations .about_company__img img {
+    padding-top: 0px;
+    padding-left: 35px; }
+  .about_company__lead {
+    margin-left: 60px;
+    width: 280px;
+    margin-top: -120px;
+    margin-bottom: 30px; }
+  .about_company__block--relations .about_company__description {
+    padding-top: 140px;
+    width: auto;
+    text-align: center;
+    position: relative;
+    right: 20px; }
+  .about_company__block--relations .about_company__text {
+    margin-left: -20px; } }
+
 .poll {
   width: 100%;
   height: 450px;
@@ -495,6 +587,32 @@ template {
   color: #AFCC43;
   float: right;
   margin-bottom: 20px; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .poll {
+    height: 1000px; }
+  .poll__title {
+    width: 280px;
+    font-family: "PT Sans";
+    color: #383838;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 60px; }
+  .poll__all {
+    width: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 60px; }
+  .poll__description {
+    margin-left: 20px; } }
 
 .start__title {
   width: 700px;
@@ -563,6 +681,27 @@ template {
   width: 280px;
   text-align: center; }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .start__title {
+    width: 280px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 50px;
+    margin-bottom: 60px; }
+  .start__high, .start__low {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .start__block {
+    width: 280px;
+    margin-left: 70px; } }
+
 .practice {
   width: 100%;
   height: 900px;
@@ -605,6 +744,21 @@ template {
   line-height: 29px;
   text-align: center; }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .practice {
+    height: 1350px; }
+  .pracrice__img {
+    height: 750px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .pracrice__img img {
+    margin-top: -120px; } }
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -645,6 +799,15 @@ template {
 .aboout__icon--renta .icon__description {
   position: relative;
   bottom: 30px; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .about .aboout__icon {
+    margin-left: 70px; } }
 
 .help {
   width: 100%;
@@ -734,6 +897,37 @@ template {
   text-decoration: none;
   text-align: center; }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .help {
+    height: 1100px; }
+  .help__title {
+    width: 280px;
+    left: 50px; }
+  .help__description {
+    width: 280px;
+    left: -50px;
+    position: relative; }
+  .manager {
+    width: 280px;
+    height: 460px;
+    border-radius: 10px;
+    background: #EAE5E5;
+    -webkit-box-shadow: 1px 2px 4px 0 rgba(210, 197, 197, 0.5);
+    box-shadow: 1px 2px 4px 0 rgba(210, 197, 197, 0.5);
+    /* margin-left: 380px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: column;
+    margin-left: 50px; }
+  .manager__img img {
+    position: relative;
+    top: 20px;
+    left: 60px; } }
+
 .posibility__title {
   width: 700px;
   font-family: "PT Sans-Bold";
@@ -757,6 +951,25 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .posibility__title {
+    width: 280px;
+    font-family: "PT Sans-Bold";
+    color: #afcc43;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+    left: 60px;
+    margin-bottom: 60px; }
+  .posibility__all {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 90px; } }
 
 .delivery {
   width: 100%;
@@ -797,6 +1010,24 @@ template {
   font-family: "PT Sans-Bold";
   display: block; }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .delivery {
+    width: 100%;
+    height: 510px;
+    background: rgba(216, 216, 216, 0.2);
+    margin-top: 70px;
+    z-index: 999; }
+  .delivery__all {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .delivery__description {
+    margin-left: 0; }
+  .delivery__img {
+    margin-top: 20px;
+    margin-left: 90px; } }
+
 .page-footer {
   height: 315px;
   background-color: rgba(204, 204, 204, 0.3);
@@ -829,6 +1060,12 @@ template {
   text-align: center;
   z-index: 9999;
   padding-top: 30px; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .page-footer {
+    height: 360px; }
+  .footer__info::after {
+    margin-left: 140px; } }
 
 @font-face {
   font-family: "PT Sans";

@@ -49,3 +49,28 @@
   line-height: 29px;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .practice
+  {
+    height: 1350px;
+  }
+
+  .pracrice__img
+  {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pracrice__img img
+  {
+    margin-top: -120px;
+  }
+
+}

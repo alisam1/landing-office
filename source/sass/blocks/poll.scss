@@ -61,3 +61,40 @@
   float: right;
   margin-bottom: 20px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .poll
+  {
+    height: 1000px;
+  }
+
+  .poll__title {
+    width: 280px;
+    font-family: "PT Sans";
+    color: #383838;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 60px;
+}
+
+  .poll__all
+  {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+  }
+
+  .poll__description
+  {
+    margin-left: 20px;
+  }
+}
