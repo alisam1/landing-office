@@ -52,6 +52,23 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
+  .practice
+  {
+    height: 1470px;
+  }
+
+  .pracrice__img
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pracrice__img img
+  {
+    margin-top: 30px;
+  }
+
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

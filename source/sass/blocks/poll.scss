@@ -64,6 +64,39 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
+  .poll
+  {
+    height: 500px;
+  }
+
+  .poll__title {
+    width: 700px;
+    font-family: "PT Sans";
+    color: #383838;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 50px;
+}
+
+.poll__all
+{
+  width: 760px;
+  margin-left: 0px;
+}
+
+.poll__block
+{
+  width: 200px;
+}
+
+.poll__description
+{
+  float: left;
+}
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

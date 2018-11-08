@@ -350,6 +350,10 @@ template {
   margin-left: -310px;
   margin-top: 10px; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .header__title {
+    padding-right: 50px; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .page-header {
     background-image: url("../img/main_background.png");
@@ -484,6 +488,18 @@ template {
 .about_company__block--relations .about_company__text {
   margin-left: 20px; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .about_company::after {
+    display: none; }
+  .about_company__block--progress .about_company__img::after {
+    display: none; }
+  .about_company__block--stimul .about_company__img::before {
+    display: none; }
+  .about_company__block--stimul .about_company__img::before {
+    display: none; }
+  .about_company__block--relations .about_company__img::after {
+    display: none; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .about_company__block {
     display: -webkit-box;
@@ -591,6 +607,27 @@ template {
   float: right;
   margin-bottom: 20px; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .poll {
+    height: 500px; }
+  .poll__title {
+    width: 700px;
+    font-family: "PT Sans";
+    color: #383838;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 50px; }
+  .poll__all {
+    width: 760px;
+    margin-left: 0px; }
+  .poll__block {
+    width: 200px; }
+  .poll__description {
+    float: left; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .poll {
     height: 1000px; }
@@ -684,6 +721,10 @@ template {
   width: 280px;
   text-align: center; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .start__title {
+    left: 50px; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .start__title {
     width: 280px;
@@ -752,6 +793,20 @@ template {
   line-height: 29px;
   text-align: center; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .practice {
+    height: 1470px; }
+  .pracrice__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .pracrice__img img {
+    margin-top: 30px; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .practice {
     height: 1350px; }
@@ -807,6 +862,15 @@ template {
 .aboout__icon--renta .icon__description {
   position: relative;
   bottom: 30px; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .about {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .about {
@@ -905,6 +969,30 @@ template {
   text-decoration: none;
   text-align: center; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .help__title {
+    width: 700px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 50px;
+    margin-bottom: 60px; }
+  .help__description {
+    width: 700px;
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    text-align: center; }
+  .manager {
+    margin-left: 170px; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .help {
     height: 1100px; }
@@ -958,6 +1046,10 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .posibility__title {
+    left: 50px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .posibility__title {
@@ -1067,6 +1159,10 @@ template {
   text-align: center;
   z-index: 9999;
   padding-top: 30px; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer__info::after {
+    margin-left: 350px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .page-footer {
